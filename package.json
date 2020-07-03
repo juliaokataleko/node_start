@@ -1,0 +1,16 @@
+{
+  "name": "node_start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon http/server.js"
+  },
+  "keywords": [],
+  "author": "JFK",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
