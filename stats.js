@@ -1,6 +1,5 @@
 const os = require('os'); // module system
-
-// console.log(os.platform());
+const log = require('./logger');
 
 setInterval(() => {
     // desestruturation or const freemen = os.freemen()
@@ -19,6 +18,9 @@ setInterval(() => {
     console.clear();
     console.log("=== PC STATS === ");
     console.table(stats)
+
+    log(`${JSON.stringify(stats)}\n`);
+
 }, 1000)
 
     ;
